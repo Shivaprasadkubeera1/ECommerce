@@ -1,0 +1,35 @@
+
+.imageslidercontent { 
+    display: grid;
+    margin: 0 auto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr; 
+    grid-template-areas: "one  two  three";
+    background-color: rgb(252, 252, 252);
+    align-items: center; 
+    grid-area: unset;
+    gap: 10px;
+  }
+  
+  .imagesliderone {
+    grid-area: one;
+    background-color: green;
+    width: 300px;
+    height: 300px;
+  }
+  .imageslidertwo {
+    grid-area: two;
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .imagesliderthree {
+    grid-area: three;
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+  }
+  

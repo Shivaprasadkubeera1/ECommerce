@@ -1,0 +1,50 @@
+
+.imageslidercontent5 { 
+    display: grid;
+    margin: 0 auto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr; 
+    grid-template-areas: "one two three four";
+    background-color: rgb(255, 255, 255);
+    align-items: center; 
+    grid-area: unset;
+  }
+  
+  .imageslider5one {
+    grid-area: one;
+    background-color: green;
+    width: 250px;
+    height: 370px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .imageslider5two {
+    grid-area: two;
+    background-color: green;
+    width: 250px;
+    height: 370px;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  .imageslider5three {
+    grid-area: three;
+    background-color: green;
+    width: 250px;
+    height: 370px;
+    margin-right: auto;
+    margin-left: auto;
+   
+  }
+  
+  .imageslider5four {
+    grid-area: four;
+    background-color: green;
+    width: 250px;
+    height: 370px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  

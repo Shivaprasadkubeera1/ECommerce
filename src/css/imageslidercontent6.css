@@ -1,0 +1,57 @@
+
+.imageslidercontent6 { 
+    display: grid;
+    margin: 0 auto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr; 
+    grid-template-areas: "one two three four";
+    background-color: rgb(255, 255, 255);
+    align-items: center; 
+    grid-area: unset;
+  }
+  
+  .imageslider6one {
+    grid-area: one;
+    background-color: rgb(238, 241, 238);
+    width: 250px;
+    height: 370px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .imageslider6two {
+    grid-area: two;
+    background-color: green;
+    width: 250px;
+    height: 370px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+  }
+  .imageslider6three {
+    grid-area: three;
+    background-color: green;
+    width: 250px;
+    height: 370px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+   
+  }
+  
+  .imageslider6four {
+    grid-area: four;
+    background-color: green;
+    width: 250px;
+    height: 370px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  

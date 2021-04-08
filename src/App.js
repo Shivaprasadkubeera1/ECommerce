@@ -1,4 +1,19 @@
 import './App.css';
+import '../src/css/content.css';
+import '../src/css/header.css';
+import '../src/css/contentwomen.css';
+import '../src/css/header1.css';
+import '../src/css/header2.css';
+import '../src/css/header3.css';
+import '../src/css/header4.css';
+import '../src/css/header5.css';
+
+import '../src/css/imageslider1one.css';
+import '../src/css/imageslidercontent.css';
+import '../src/css/imageslidercontent5.css';
+import '../src/css/imageslidercontent6.css';
+
+
 import { Router, Route, Link, browserHistory, Switch } from 'react-router';
 import SearchIcon from '@material-ui/icons/Search';
 
@@ -14,6 +29,7 @@ import ImageSlider2 from './components/ImageSlider2';
 import ImageSlider3 from './components/ImageSlider3';
 import ImageSlider4 from './components/ImageSlider4';
 import ImageSlider5 from './components/ImageSlider5';
+import One from './components/One';
 
 function App() {
   return (
@@ -22,8 +38,8 @@ function App() {
 
       <div class="header">
       </div>
-
        <Head/>
+       <Link to="/One" className="onelink">One</Link><br/>
        <Header1/>
        <ImageSlider1/><br/><br/><br/><br/>
        <Header2/>

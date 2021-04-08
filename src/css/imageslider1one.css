@@ -1,0 +1,55 @@
+.imageslidercontent1 { 
+    display: grid;
+    margin: 0 auto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    grid-template-areas: "one two"
+                         "three four";
+    background-color: rgb(252, 252, 252);
+    align-items: center; 
+    grid-area: unset;
+  }
+  
+  .imageslider1one {
+    grid-area: one;
+    background-color: green;
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .imageslider1two {
+    grid-area: two;
+    background-color: green;
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .imageslider1three {
+    grid-area: three;
+    background-color: green;
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  
+  .imageslider1four {
+    grid-area: four;
+    background-color: green;
+    width: 500px;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  

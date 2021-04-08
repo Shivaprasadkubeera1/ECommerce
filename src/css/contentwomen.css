@@ -1,0 +1,50 @@
+.contentwomen { 
+    display: grid;
+     margin: auto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr; 
+    grid-template-areas: "one two three"
+    "four five six";
+    background-color: white;
+    /* align-items: center; */
+    grid-area: content;
+    gap: 20px;
+  }
+  .onewomen {
+    grid-area: one;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  .twowomen {
+    grid-area: two;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  .threewomen {
+    grid-area: three;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  .fourwomen {
+    grid-area: four;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  .fivewomen {
+    grid-area: five;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  .sixwomen {
+    grid-area: six;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  
